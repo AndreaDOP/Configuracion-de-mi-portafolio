@@ -10,6 +10,6 @@ idUsuarios int unsigned not null auto_increment,
 nombre varchar(100) not null,
 email varchar(200) not null,
 phone bigint not null,
+mensaje varchar(500) not null,
 primary key (idUsuarios)
 );
-
